@@ -4,12 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -450,108 +444,79 @@ font-size: 1.5rem;
 }
 
 @media screen and (max-width: 730px) {
-    .nav-bar {
+    .nav-bar{
         justify-content: center;
         padding: 1.5rem 4rem;
     }
-
-    .video {
+    .video{
         display: flex;
         margin-right: 7rem;
     }
-
-    .dowload {
+    .dowload{
         display: flex;
         width: 100%;
-        margin-left: 0; /* Ajuste a margem conforme necessário */
     }
-
     .logo a img {
         width: 60px;
         position: absolute;
         left: 15px;
         top: 30px;
-        align-items: center;
+        align-items: center;        
     }
-
-    .mobile-menu-icon {
-        display: flex;
+    .mobile-menu-icon{
+        display:flex;
         margin-left: 30rem;
         align-items: center;
         margin-top: 4px;
+        
     }
-
-    .login-button {
-        display: flex;
+    .login-button{
+        display:flex ;
         margin-left: 18rem;
     }
-
-    .nav-item,
-    .login-button {
+    .nav-item{
         display: none;
     }
-
-    .mobile-menu-icon {
+    .login-button{
+        display: none;
+    }
+    .mobile-menu-icon{
         display: block;
     }
-
-    .mobile-menu-icon button {
+    .mobile-menu-icon button{
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
-
-    .mobile-menu ul {
+    .mobile-menu ul{
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 1rem;
+        padding-bottom: 1rem ;
     }
-
-    .mobile-menu .nav-item {
+    .mobile-menu .nav-item{
         display: block;
         padding-top: 1.2rem;
     }
-
-    .mobile-menu .login-button {
+    .mobile-menu .login-button{
         display: block;
         padding: 1.2rem;
     }
-
-    .mobile-menu .login-button button {
+    .mobile-menu .login-button botton{
         width: 100%;
+        
     }
-
-    .video-containeer {
+    .video-containeer{
         display: flex;
         flex-direction: column;
         columns: 3;
+        
     }
 
-    .gif_chapa {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80vh; /* Ajuste a altura conforme necessário */
-        margin-top: 10px; /* Ajuste a margem superior conforme necessário */
-        margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
-    }
-
-    .gif_chapa .chipi {
-        width: 100%; /* Ajuste a largura conforme necessário */
-        height: auto;
-    }
-
-    .animacao-texto p {
-        margin-top: 10px; /* Ajuste a margem superior conforme necessário */
-        font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+    .open{
+        display: block;
     }
 }
-
-
-
-
-
 
 
 body{
