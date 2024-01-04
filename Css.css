@@ -301,7 +301,7 @@ opacity: 0.8;
 }
 
 #projeto iframe {
-    height: 425px; /* Ajuste a altura conforme necessário */
+    height: 60vh; /* Ajuste a altura conforme necessário, usando unidades relativas */
 }
 :root{
     --color-neutral-0: #0e0c0c;
