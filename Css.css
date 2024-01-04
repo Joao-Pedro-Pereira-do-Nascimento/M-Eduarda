@@ -293,7 +293,11 @@ opacity: 0.8;
     text-align: center; /* Centraliza o conteúdo da seção */
 }
 
-#projeto img,
+#projeto img{
+    max-width: 45%; /* Largura máxima para ambos */
+    height: auto; /* Altura automática mantendo a proporção original */
+    display: inline-block; /* Exibe ambos como blocos inline para ficarem ao lado um do outro */
+}
 #projeto iframe {
     max-width: 45%; /* Largura máxima para ambos */
     height: auto; /* Altura automática mantendo a proporção original */
