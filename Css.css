@@ -463,6 +463,12 @@ font-size: 1.5rem;
 
 @media screen and (max-width: 730px) {
     /* Aplique estilos específicos para telas menores aqui */
+    body{
+  
+        background: var(--color-neutral-40);
+        overflow-x: hidden;
+        
+    }
     .animacao-texto p{
         margin-top: 50px;
         font-family: 'Monomaniac One', sans-serif;
