@@ -460,9 +460,346 @@ font-size: 1.5rem;
     padding: 1.5rem;
     font-weight: 100%;
 }
+.titulo_musca{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-size: 3rem;
+}
+.textofofo{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-size: 2rem;
+}
 
 @media screen and (max-width: 730px) {
     /* Aplique estilos específicos para telas menores aqui */
+    .titulo_musca{
+        margin-top: 2rem;
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        font-size: 3rem;
+    }
+    .textofofo{
+        margin-top: 2rem;
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        font-size: 2rem;
+    }
+    
+    body{
+  
+        background: var(--color-neutral-40);
+        overflow-x: hidden;
+        
+    }
+    .animacao-texto p{
+        margin-top: 50px;
+        font-family: 'Monomaniac One', sans-serif;
+        text-align: center;
+        border-right: 4px solid;
+        width: 19ch;
+        font-size: 4.0rem;
+        width: 100%;
+        color: #0187a7;
+        white-space: nowrap;
+        overflow: hidden;
+        background-color: var();
+        animation: digitando 3.9s steps(45),blinking 0.5s infinite step-end alternate;
+        
+        
+    }
+    .chipi {
+        width: 100%; /* Defina a largura máxima como 100% */
+        max-width: 1000px; /* Defina a largura máxima desejada */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-left: auto; /* Centraliza na tela */
+        margin-right: auto; /* Centraliza na tela */
+    }
+    .nav-bar {
+        justify-content: center;
+        padding: 1.5rem 4rem;
+    }
+    .logo a img {
+        width: 60px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        align-items: center;
+    }
+
+    .video {
+        display: flex;
+        margin-right: 1rem;
+    }
+
+
+    .logo a img {
+        width: 60px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        align-items: center;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        margin-left: 30rem;
+        align-items: center;
+        margin-top: 4px;
+    }
+
+    .login-button {
+        display: flex;
+        margin-left: 18rem;
+    }
+    #projeto {
+        text-align: center; /* Centraliza o conteúdo da seção */
+    }
+    
+    #projeto img{
+        max-width: 45%; /* Largura máxima para ambos */
+        height: auto; /* Altura automática mantendo a proporção original */
+        display: inline-block; /* Exibe ambos como blocos inline para ficarem ao lado um do outro */
+    }
+    #projeto iframe {
+        max-width: 45%; /* Largura máxima para ambos */
+        height: auto; /* Altura automática mantendo a proporção original */
+        display: inline-block; /* Exibe ambos como blocos inline para ficarem ao lado um do outro */
+    }
+    
+    #projeto iframe {
+        height: 60vh; /* Ajuste a altura conforme necessário, usando unidades relativas */
+    }
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+        #projeto img,
+    #projeto iframe {
+        max-width: 100%;
+    }
+    #projeto iframe {
+        height: 60vh;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1.2rem;
+    }
+
+    .mobile-menu .login-button botton {
+        width: 100%;
+    }
+
+    .video-containeer {
+        display: flex;
+        flex-direction: column;
+        columns: 3;
+    }
+
+    .open {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* Aplique estilos específicos para telas menores aqui */
+    
+    .titulo_musca{
+        margin-top: 2rem;
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        font-size: 3rem;
+    }
+    .textofofo{
+        margin-top: 2rem;
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        font-size: 2rem;
+    }
+    
+    body{
+  
+        background: var(--color-neutral-40);
+        overflow-x: hidden;
+        
+    }
+    .animacao-texto p{
+        margin-top: 50px;
+        font-family: 'Monomaniac One', sans-serif;
+        text-align: center;
+        border-right: 4px solid;
+        width: 19ch;
+        font-size: 4.0rem;
+        width: 100%;
+        color: #0187a7;
+        white-space: nowrap;
+        overflow: hidden;
+        background-color: var();
+        animation: digitando 3.9s steps(45),blinking 0.5s infinite step-end alternate;
+        
+        
+    }
+    .chipi {
+        width: 100%; /* Defina a largura máxima como 100% */
+        max-width: 1000px; /* Defina a largura máxima desejada */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-left: auto; /* Centraliza na tela */
+        margin-right: auto; /* Centraliza na tela */
+    }
+    .nav-bar {
+        justify-content: center;
+        padding: 1.5rem 4rem;
+    }
+    .logo a img {
+        width: 60px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        align-items: center;
+    }
+
+    .video {
+        display: flex;
+        margin-right: 1rem;
+    }
+
+
+    .logo a img {
+        width: 60px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        align-items: center;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        margin-left: 30rem;
+        align-items: center;
+        margin-top: 4px;
+    }
+
+    .login-button {
+        display: flex;
+        margin-left: 18rem;
+    }
+    #projeto {
+        text-align: center; /* Centraliza o conteúdo da seção */
+    }
+    
+    #projeto img{
+        max-width: 45%; /* Largura máxima para ambos */
+        height: auto; /* Altura automática mantendo a proporção original */
+        display: inline-block; /* Exibe ambos como blocos inline para ficarem ao lado um do outro */
+    }
+    #projeto iframe {
+        max-width: 45%; /* Largura máxima para ambos */
+        height: auto; /* Altura automática mantendo a proporção original */
+        display: inline-block; /* Exibe ambos como blocos inline para ficarem ao lado um do outro */
+    }
+    
+    #projeto iframe {
+        height: 60vh; /* Ajuste a altura conforme necessário, usando unidades relativas */
+    }
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+        #projeto img,
+    #projeto iframe {
+        max-width: 100%;
+    }
+    #projeto iframe {
+        height: 60vh;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1.2rem;
+    }
+
+    .mobile-menu .login-button botton {
+        width: 100%;
+    }
+
+    .video-containeer {
+        display: flex;
+        flex-direction: column;
+        columns: 3;
+    }
+
+    .open {
+        display: block;
+    }
+}
+@media screen and (max-width: 320px) {
+    /* Aplique estilos específicos para telas menores aqui */
+    
+    .titulo_musca{
+        margin-top: 2rem;
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        font-size: 3rem;
+    }
+    .textofofo{
+        margin-top: 2rem;
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        font-size: 2rem;
+    }
+    
     body{
   
         background: var(--color-neutral-40);
